@@ -1,0 +1,12 @@
+// RESET
+@import '~reset-css/reset.css';
+
+// DDS
+$modulePrefix: '~';
+@import '@ta-ds/core-style/style/fonts.scss';
+@import '@ta-ds/core-style/style/color.scss';
+@import '@ta-ds/core-style/style/breakpoints.scss';
+@import '@ta-ds/core-style/style/z-depth.scss';
+
+// COMPONENTS
+@import './components/app.scss';

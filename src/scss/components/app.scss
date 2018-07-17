@@ -1,0 +1,9 @@
+.app {
+  padding: 16px;
+  background-color: ta-color('red', 500);
+
+  > h1 {
+    @extend .gobold;
+    font-size: 48px;
+  }
+}
